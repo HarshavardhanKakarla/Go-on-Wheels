@@ -3,8 +3,6 @@ window.addEventListener("scroll", () =>
   navbar.classList.toggle("sticky", window.scrollY > 0)
 );
 
-window.alert("Accept cookies");
-
 const menu = document.querySelector(".menu");
 const toggleMenu = () => menu.classList.toggle("active");
 
