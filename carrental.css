@@ -37,11 +37,11 @@ nav {
     background-color: white;
     padding: 20px 30px;
     transition: all 0.1s ease-out;
-    filter: drop-shadow(5px 5px 10px transparent);
+    filter: drop-shadow(1px 1px 1px #000);
 }
 nav.sticky{
     background-color: white;
-    filter: drop-shadow(5px 5px 10px rgba(194 184 255 0.5));
+   
 }
 .brand{
     text-decoration: none;
@@ -610,6 +610,11 @@ nav.sticky{
         font-size: 14px;
         font-weight: 500;
     }
+    .download-button{
+        margin-bottom: 15px;
+        margin-left: 80px;
+    }
+
     .hero-page{
         flex-direction: column;
         align-items: center;
@@ -635,7 +640,14 @@ nav.sticky{
     .about-info-item{
         width: 358px;
         height: 458px;
+        filter: drop-shadow(2px 2px  rgba(0 0 0 0.2));
     }
+    .about-info-item:hover{
+        filter: drop-shadow(2px 2px  rgba(197, 95, 241, 0.4));
+    }
+    #collection h1{
+        margin-top: 60px;
+     }
     .collection-container{
         gap: 12px;
     }
@@ -767,16 +779,14 @@ nav.sticky{
         height: 43px;
         font-size: 16px;
     }
-    .download-button{
-        margin-top: 12px;
-    }
+   
     .download-button img{
         height: 34px;
         width: 99px;
         align-items: center;
     }
     .hero-page-img{
-        margin-top: 10px;;
+        margin-top: 10px;
     }
     .about-container{
         padding: 20px;
@@ -796,7 +806,7 @@ nav.sticky{
     }
     .about-info-item{
         width: 280px;
-        height: 350p;
+        height: 400px;
         align-items: center;
         padding: 0 35px 25px 35px;
     }
@@ -809,15 +819,15 @@ nav.sticky{
         text-align: center;
     }
     .collection h1{
-        font-size: 24px;
-        margin-top: 100px;
+        font-size: 48px;
+        margin-top: 150px;
     }
     .collection-container{
         gap: 24px;
     }
     .collection-car-item{
         width: 280px;
-        height: 250px;
+        height: 380px;
     }
     .car-info-container{
         padding: 13px;
@@ -832,10 +842,10 @@ nav.sticky{
         font-size: 20px;
     }
     .car-price h6, .car-locatin h6{
-        gap: 4px;
+        gap: 2px;
     }
     .car-location, .car-price{
-        gap: 4px;
+        gap: 2px;
     }
     .btn-herocar{
         width: 200px;
@@ -851,7 +861,7 @@ nav.sticky{
     }
     .review-item{
         width: 100%;
-        height: 250px;
+        height: 200px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -862,6 +872,7 @@ nav.sticky{
     }
     .callout{
         padding: 32px;
+        height: 250px;
     }
     .callout h2{
         font-size: 24px;
@@ -874,17 +885,18 @@ nav.sticky{
         flex-direction: column;
     }
     .footer-bottom{
+        height: 200px;
         flex-direction: column;
         padding: 10px;
         justify-content: center;
         align-items: center;
-        margin: 60px;
+        margin: 10px;
     }
     .footer-brand{
         font-size: 24px;
     }
     .collection-category{
-        margin-top: 80px;
+        margin-top: 50px;
     }
     .collection-category h1{
         margin-top: 0px;
