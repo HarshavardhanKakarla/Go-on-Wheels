@@ -581,13 +581,19 @@ nav.sticky{
     border-radius: 0px;
 }
 /*About*/
-.about{
+.about-page{
     margin-top: 100px;
-    margin-bottom: 20px;
     color: var(--black);
 }
-.about h1{
+.about-page h1{
     text-align: center;
+}
+.about-page-container{
+    margin-top: 10px;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* laptop and Tablet */
@@ -791,6 +797,7 @@ nav.sticky{
     .about-container{
         padding: 20px;
         height: 262px;
+        margin-bottom: 480px;
     }
     .about-container h1{
         font-size: 20px;
